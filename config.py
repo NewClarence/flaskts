@@ -1,0 +1,4 @@
+CSRF_ENABLED = True
+SECRET_KEY = 'you-had-better-guess'
+SQLALCHEMY_DATABASE_URI = 'mysql://dbuser:a@192.168.100.102/blog'
+SQLALCHEMY_TRACK_MODIFICATIONS = True
